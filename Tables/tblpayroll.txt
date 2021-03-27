@@ -1,0 +1,28 @@
+***** tblpay
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | int(11)      | NO   | PRI | NULL    | auto_increment |
+| empnum   | varchar(30)  | NO   |     | NULL    |                |
+| school   | varchar(255) | NO   |     | NULL    |                |
+| dept     | varchar(100) | NO   |     | NULL    |                |
+| ms       | varchar(50)  | NO   |     | NULL    |                |
+| dater    | date         | NO   |     | NULL    |                |
+| timer    | time         | NO   |     | NULL    |                |
+| sked_in  | time         | NO   |     | NULL    |                |
+| sked_out | time         | NO   |     | NULL    |                |
+| sked_set | time         | NO   |     | NULL    |                |
+| rpd      | decimal(7,0) | NO   |     | NULL    |                |
+| vl       | int(3)       | NO   |     | NULL    |                |
+| sl       | int(3)       | NO   |     | NULL    |                |
+| el       | int(3)       | NO   |     | NULL    |                |
+| do       | int(3)       | NO   |     | NULL    |                |
+| sss      | int(11)      | NO   |     | NULL    |                |
+| tin      | int(11)      | NO   |     | NULL    |                |
+| sssd     | decimal(7,0) | NO   |     | NULL    |                |
+| taxd     | decimal(7,0) | NO   |     | NULL    |                |
+| phid     | decimal(7,0) | NO   |     | NULL    |                |
+| remarks  | varchar(50)  | NO   |     | NULL    |                |
+| ot       | time         | NO   |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+22 rows in set (0.00 sec)

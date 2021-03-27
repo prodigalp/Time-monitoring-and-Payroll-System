@@ -1,0 +1,3 @@
+backup the file from tblrecord to another table for the purpose of another payment
+ save the file first in backup
+ and delete the source after wards

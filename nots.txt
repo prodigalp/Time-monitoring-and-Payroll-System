@@ -1,0 +1,5 @@
+
+	adding of time
+	viewing of reports by date,name,timein,timeout or empnum
+	payslip
+	timestatements

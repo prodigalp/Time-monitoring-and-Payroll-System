@@ -1,0 +1,12 @@
+******** tblts;
++---------+-------------+------+-----+---------+----------------+
+| Field   | Type        | Null | Key | Default | Extra          |
++---------+-------------+------+-----+---------+----------------+
+| id      | int(11)     | NO   | PRI | NULL    | auto_increment |
+| empnum  | varchar(50) | NO   |     | NULL    |                |
+| date    | date        | NO   |     | NULL    |                |
+| timein  | time        | NO   |     | NULL    |                |
+| timeout | time        | NO   |     | NULL    |                |
+| timeset | time        | NO   |     | NULL    |                |
++---------+-------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)

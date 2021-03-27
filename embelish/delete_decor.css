@@ -1,0 +1,155 @@
+html {
+	background:#DDD;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:monospace;
+}
+
+#wrap {
+	background:#FFF;
+	padding:7px;
+	width:800px;
+	margin:35px auto;
+	border-radius:15px;
+	box-shadow:0 0 0.7em rgba(1,1,1,0.9);
+}
+
+#head {
+	color:#FFF;
+	background:#306EFF;
+	height:80px;
+	line-height:80px;
+	font-size:75px;
+	font-weight:bold;
+	text-align:center;
+	border-radius:15px;
+	margin-bottom:10px;
+}
+
+#menu {
+	background:#FFFF00;
+	height:30px;
+	line-height:30px;
+	border-radius:15px;
+	margin-bottom:10px;
+}
+
+#menu ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+#menu ul li {
+	float:left;
+a}
+
+#menu ul li a {
+	display:block;
+	width:100px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+a:link, a:visited {
+	color:blue;
+	font-size:17px;
+	font-weight:bold;
+	border-radius:15px;
+}
+
+a:hover {
+	color:#FFFF00;
+	background:#306EFF;
+	font-size:20px;
+}
+
+a:active {
+	color:#FFF;
+	background:#000;
+	font-size:14px;
+}
+
+#content {
+	background:#FFF;
+	border-radius:15px;
+}
+
+#content #t1  {
+	border-radius:15px;
+	margin-top:15px;
+	margin:auto;
+}
+
+#content #t1 table {
+	box-shadow:0 0 0.3em rgba(1,1,1,0.4);
+	background:#00FF00;
+	width:60%;
+	text-align:center;
+	margin:10px auto;
+	border-radius:15px;
+}
+
+#content #t2 table  #P2{
+	background:#FFFF00;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#content #t2  {
+	
+	margin:30px auto;
+	font-size:16px;
+}
+
+#content #t2 table {
+	font-size:16px;
+	text-align:center;
+	width:50%;
+	margin:auto;
+}
+
+#content #t2 td {
+	border:1px solid #000;
+	border-radius:5px;
+}
+
+
+input[type="submit"] {
+	color:#0000FF;
+	font-size:17px;
+	border-radius:7px;
+}
+
+input[type="text"] {
+	color:#0000FF;
+	font-size:17px;
+	border-radius:7px;
+	text-indent:7px;
+}
+
+
+#footer {
+	color:#FFF;
+	margin-top:10px;
+	background:#306EFF;
+	height:30px;
+	line-height:30px;
+	border-radius:15px;
+	text-align:center;
+	box-shadow:0 0 0.3em rgba(1,1,1,0.4);
+	font-size:16px;
+}
+
+#cloner {
+	background:#FFFF00;
+	border-radius:15px;
+}
+
+
+
+	

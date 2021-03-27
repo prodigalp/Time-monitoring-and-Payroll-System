@@ -1,0 +1,53 @@
+tblpay
++----------+--------------+
+| Field    | Type         |
++----------+--------------+
+| id       | int(11)      |
+| empnum   | varchar(30)  |
+| school   | varchar(255) |
+| dept     | varchar(100) |
+| ms       | varchar(50)  |
+| dater    | date         |
+| timer    | time         |
+| sked_in  | time         |
+| sked_out | time         |
+| sked_set | time         |
+| rpd      | decimal(7,0) |
+| vl       | int(3)       |
+| sl       | int(3)       |
+| el       | int(3)       |
+| do       | int(3)       |
+| sss      | varchar(30)  |
+| tin      | varchar(30)  |
+| sssd     | decimal(7,0) |
+| taxd     | decimal(7,0) |
+| phid     | decimal(7,0) |
+| remarks  | varchar(50)  |
++----------+--------------+
+
+mysql> describe tblprof;
++------------+-------------+
+| Field      | Type        |
++------------+-------------+
+| id         | int(11)     |
+| empnum     | varchar(30) |
+| email      | varchar(50) |
+| contactnum | varchar(20) |
+| ctrlnum    | int(11)     |
++------------+-------------+
+
+mysql> describe tbluser;
++----------+--------------+
+| Field    | Type         |
++----------+--------------+
+| id       | int(11)      |
+| fname    | varchar(255) |
+| lname    | varchar(255) |
+| mname    | varchar(255) |
+| username | varchar(30)  |
+| password | varchar(50)  |
+| gtype    | varchar(40)  |
+| role     | varchar(10)  |
+| ctrlnum  | int(11)      |
+| empnum   | varchar(30)  |
++----------+--------------+

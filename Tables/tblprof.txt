@@ -1,0 +1,11 @@
+******* tblprof;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| id         | int(11)     | NO   |     | 0       |       |
+| empnum     | varchar(30) | NO   |     | NULL    |       |
+| email      | varchar(50) | NO   |     | NULL    |       |
+| contactnum | varchar(20) | NO   |     | NULL    |       |
+| ctrlnum    | int(11)     | NO   |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
